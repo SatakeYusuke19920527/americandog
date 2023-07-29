@@ -1,10 +1,13 @@
-.haikei{
+.haikei {
   background-color: black;
 }
-.example{
+
+.example {
   color: red;
+  font-size: 60px;
 }
-.center{
+
+.center {
   text-align: center;
   margin-top: 5em;
 }
