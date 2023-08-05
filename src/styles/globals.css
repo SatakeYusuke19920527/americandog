@@ -11,3 +11,11 @@
   text-align: center;
   margin-top: 5em;
 }
+
+.honban{
+  text-align: center;
+}
+.honbanimg{
+  height: 60vw;
+  width: 100%;
+}
