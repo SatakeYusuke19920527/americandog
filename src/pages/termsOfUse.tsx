@@ -1,7 +1,7 @@
 import React from 'react';
 import {Layout} from "../components/Layout"
 
-const TermsOfUse: React.FC = () => {
+export default function termsOfUse() {
   return (
     <Layout>
     <div>
@@ -56,4 +56,3 @@ const TermsOfUse: React.FC = () => {
   );
 };
 
-export default TermsOfUse;
