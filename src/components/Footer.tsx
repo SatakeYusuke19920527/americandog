@@ -11,7 +11,7 @@
           
          <a className="official"></a>
           <div className="copyright">
-  <p>©︎2023american dog  </p>
+  <p className="text-white">©︎2023american dog  </p>
           </div>
           </div>
       </footer>

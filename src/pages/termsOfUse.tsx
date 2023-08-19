@@ -4,7 +4,7 @@ import {Layout} from "../components/Layout"
 export default function termsOfUse() {
   return (
     <Layout>
-    <div>
+    <div className="text-white">
     <h1>当サイト利用規約</h1>
     <p>
         ようこそ、ホラーサイト（以下、「当サイト」とします）へご訪問いただき、ありがとうございます。当サイトを利用する際には、以下の利用規約（以下、「本規約」とします）に同意していただく必要があります。本規約は、当サイトの利用者（以下、「利用者」とします）と当サイト運営者との間の契約を構成します。本規約をよくお読みいただき、同意の上で当サイトをご利用ください。
