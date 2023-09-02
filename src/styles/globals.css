@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .haikei {
   background-color: black;
 }
@@ -29,6 +33,7 @@
   width: 100%;
   height: 60vw;
 }
+<<<<<<< HEAD
 
 .hand {
   height: 100%;
@@ -40,3 +45,8 @@
 .handle {
   color: red;
 }
+||||||| merged common ancestors
+=======
+
+
+>>>>>>> 644bf814e2c59e91e831c75b1c2317622a5a8c52
