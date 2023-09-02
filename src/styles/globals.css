@@ -8,7 +8,6 @@
 
 .example {
   color: red;
-  font-size: 60px;
 }
 
 .center {
@@ -16,12 +15,27 @@
   margin-top: 5em;
 }
 
-.honban{
+.honban {
   text-align: center;
 }
-.honbanimg{
-  height: 60vw;
+
+.bg-img {
+  background-image: url('/front.png');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: flex-end;
   width: 100%;
+  height: 60vw;
 }
 
+.hand {
+  height: 100%;
+  width: 60px;
+  display: flex;
+  background-color: blue;
+}
 
+.handle {
+  color: red;
+}
