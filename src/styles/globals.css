@@ -10,6 +10,12 @@
   color: red;
 }
 
+.bed {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+}
+
 .center {
   text-align: center;
   margin-top: 5em;
@@ -20,7 +26,7 @@
 }
 
 .bg-img {
-  background-image: url('/front.png');
+  background-image: url("/front.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
@@ -31,9 +37,10 @@
 
 .hand {
   height: 100%;
-  width: 60px;
+  width: 120px;
   display: flex;
   background-color: blue;
+  opacity: 0.5;
 }
 
 .handle {
