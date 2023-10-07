@@ -21,7 +21,7 @@ export default function Home() {
     {/* 利用規約に同意しないと入れないようにする */}
     <Link href="/secondtest"><button type="submit" disabled={!isChecked}>ゲームページへ飛ぶ</button></Link>
     <br/><p　className="example">※チェックすると利用規約に同意したことになります</p><input type="checkbox" onChange={toggleCheckbox}></input>
-    <br/><Link href=""　className="example">利用規約ページへ飛ぶ</Link>
+    <br/><Link href="/termsOfUse  "　className="example">利用規約ページへ飛ぶ</Link>
     </main>
     </div>
     </Layout>
