@@ -1,10 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .haikei {
   background-color: black;
 }
 
 .example {
   color: red;
-  font-size: 60px;
+}
+
+.bed {
+  height: 100px;
+  width: 100px;
+  text-align: center;
 }
 
 .center {
@@ -12,14 +21,39 @@
   margin-top: 5em;
 }
 
-.honban{
+.honban {
   text-align: center;
 }
+<<<<<<< HEAD
 .honbanimg{
   height: 100%;
   width: 70%;
   align-self: center;
+=======
+
+.bg-img {
+  background-image: url("/front.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  height: 60vw;
+>>>>>>> 2548280c645d2a0c2b521ed7c21b815bcce8448d
 }
 
+.hand {
+  height: 100%;
+  width: 120px;
+  display: flex;
+  background-color: blue;
+  opacity: 0.5;
+}
 
+<<<<<<< HEAD
 
+=======
+.handle {
+  color: red;
+}
+>>>>>>> 2548280c645d2a0c2b521ed7c21b815bcce8448d

@@ -1,22 +1,15 @@
-
-
-  const Footer = () => {
+import Link from "next/link"
+export default function Footer() {
     return (
-      <footer>
-        <div className="footer"> 
-        
-        <ul className="footer-menu">
-  
-          </ul>
-          
-         <a className="official"></a>
-          <div className="copyright">
-  <p>©︎2023american dog  </p>
-          </div>
-          </div>
-      </footer>
+      <>
+      <div className="text-right align-text-bottom">
+      <Link href="/termsOfUse  "　className="text-white w-full">利用規約</Link>
+      </div>
+      <p className="text-white text-center"> ©️americandog</p>
+      </>
     )
-  }
+}
   
-  export default Footer
+  
+  
   
