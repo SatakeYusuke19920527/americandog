@@ -20,13 +20,7 @@ export default function About() {
     return (
       <Layout>
         <div>
-<<<<<<< HEAD
-    <h1 className="example">本番ページ</h1>
-    <div className='honban'>
-    </div>
-    </div>
-      </Layout>　 
-=======
+
           <h1 className="example">本番ページ</h1>
           <div className='honban'>
       <FacebookShareButton url={URL} quote={QUOTE}>
@@ -41,6 +35,6 @@ export default function About() {
           </div>
         </div>
       </Layout> 
->>>>>>> 2548280c645d2a0c2b521ed7c21b815bcce8448d
+
     )
 }
