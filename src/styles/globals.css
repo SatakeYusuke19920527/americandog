@@ -21,10 +21,6 @@
   margin-top: 5em;
 }
 
-.honban {
-  text-align: center;
-}
-
 .bg-img {
   background-image: url("/front.png");
   background-repeat: no-repeat;
@@ -45,4 +41,46 @@
 
 .handle {
   color: red;
+}
+
+.honban {
+  text-align: center;
+}
+
+.sharebox {
+  text-align: center;
+  position: relative;
+  height: 80vh;
+}
+
+.share {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  font-size: 4.5vw;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.snsbutton {
+  color: white;
+  position: absolute;
+  font-size: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.urlbutton {
+  color: red;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.ink {
+  width: 360px;
 }
