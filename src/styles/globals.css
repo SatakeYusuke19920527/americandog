@@ -84,3 +84,33 @@
 .ink {
   width: 360px;
 }
+
+.round_btn {
+  margin: 0 0 0 auto;
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(210, 210, 210);
+  border-radius: 50%;
+  background: rgb(0, 0, 0);
+}
+
+.round_btn::before,
+.round_btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3px;
+  height: 22px;
+  background: rgb(210, 210, 210);
+}
+
+.round_btn::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.round_btn::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
