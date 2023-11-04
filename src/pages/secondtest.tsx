@@ -10,7 +10,7 @@ import {
 } from "react-share";
 
 export default function About() {
-    const URL = 'https://localhost:3000/';
+    const URL = 'https://americandog.vercel.app/';
   const QUOTE = 'あめりかんどっぐ　みんなに共有してね　#ホラー';
 
   const isBrowser = typeof window !== 'undefined';
