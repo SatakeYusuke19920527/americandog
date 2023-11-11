@@ -48,7 +48,7 @@ export default function About() {
            </button>
             </div>
             </div>
-          {/* <img src={"HekeAPnPVpd2bRMrwbxy1699701079-1699701176.gif"}></img> */}
+            <img src="gUV2bq53JfFpNux4f44L1699701771-1699701910.gif"></img>
        </div>
       </Layout> 
     )
