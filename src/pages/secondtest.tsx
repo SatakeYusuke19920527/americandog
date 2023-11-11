@@ -12,12 +12,11 @@ import {
 
 
 export default function About() {
-    const URL = 'https://localhost:3000/';
+    const URL = 'https://americandog.vercel.app/';
   const QUOTE = 'あめりかんどっぐ　みんなに共有してね　#ホラー';
 
   const isBrowser = typeof window !== 'undefined';
   const urlCopyHandler = async (url: string) => {
-    // Next.jsを使用している場合はbuild時にコケるので`isBrowser`の条件分岐が必要です
     if (!isBrowser) return;
     try {
       await navigator.clipboard.writeText(url);
@@ -30,7 +29,6 @@ export default function About() {
     return (
       <Layout>
         <div>
-
           <h1 className="example">本番ページ</h1>
           <div className='honban'>
             <div className='sharebox'>
@@ -53,6 +51,7 @@ export default function About() {
            </button>
             </div>
             </div>
+            <img src="gUV2bq53JfFpNux4f44L1699701771-1699701910.gif"></img>
        </div>
       </Layout> 
 
