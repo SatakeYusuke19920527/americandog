@@ -50,7 +50,8 @@ export default function About() {
            </button>
             </div>
             </div>
-            <video src="americandog2.mp4"></video>
+            <img src="gUV2bq53JfFpNux4f44L1699701771-1699701910.gif"></img>
+            <video src="black-and-white-1282260_1280.jpg"></video>
        </div>
       </Layout> 
     )
