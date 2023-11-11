@@ -15,7 +15,6 @@ export default function About() {
 
   const isBrowser = typeof window !== 'undefined';
   const urlCopyHandler = async (url: string) => {
-    // Next.jsを使用している場合はbuild時にコケるので`isBrowser`の条件分岐が必要です
     if (!isBrowser) return;
     try {
       await navigator.clipboard.writeText(url);
@@ -28,7 +27,6 @@ export default function About() {
     return (
       <Layout>
         <div>
-          <h1 className="example">本番ページ</h1>
           <div className='honban'>
             <div className='sharebox'>
             <div className="share">SNSでシェアしましょう </div>
@@ -50,7 +48,7 @@ export default function About() {
            </button>
             </div>
             </div>
-            <video src="americandog2.mp4"></video>
+          {/* <img src={"HekeAPnPVpd2bRMrwbxy1699701079-1699701176.gif"}></img> */}
        </div>
       </Layout> 
     )
