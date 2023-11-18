@@ -1,2 +1,10 @@
-import React from 'react';
-import useSound from 'use-sound';
+import React from 'react'
+
+const Sound = () => {
+  return (
+    <div>Sound</div>
+  )
+}
+
+export default Sound
+
