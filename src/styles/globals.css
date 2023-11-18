@@ -21,10 +21,6 @@
   margin-top: 5em;
 }
 
-.honban {
-  text-align: center;
-}
-
 .bg-img {
   background-image: url("/front.png");
   background-repeat: no-repeat;
@@ -43,6 +39,88 @@
   opacity: 0.5;
 }
 
+
+
+
 .handle {
   color: red;
+}
+
+.honban {
+  text-align: center;
+}
+
+.sharebox {
+  text-align: center;
+  position: relative;
+  height: 80vh;
+}
+
+.share {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  font-size: 4.5vw;
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -50%);
+}
+
+.snsbutton {
+  color: white;
+  position: absolute;
+  font-size: 100px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.urlbutton {
+  color: red;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  font-size: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.ink {
+  width: 360px;
+}
+
+.round_btn {
+  margin: 0 0 0 auto;
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 2px solid rgb(210, 210, 210);
+  border-radius: 50%;
+  background: rgb(0, 0, 0);
+}
+
+.round_btn::before,
+.round_btn::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 3px;
+  height: 22px;
+  background: rgb(210, 210, 210);
+}
+
+.round_btn::before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.round_btn::after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.eee{
+  position: absolute;
+  left: 50%;
+  top: 120%;
+  transform: translate(-50%, -50%);
 }
