@@ -52,8 +52,9 @@ export default function About() {
             </div>
             </div>
             <img src="gUV2bq53JfFpNux4f44L1699701771-1699701910.gif"></img>
+            
        </div>
+       
       </Layout> 
-
     )
 }
