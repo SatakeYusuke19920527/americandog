@@ -9,13 +9,14 @@ import {
   TwitterIcon
 } from "react-share";
 
+
+
 export default function About() {
     const URL = 'https://americandog.vercel.app/';
   const QUOTE = 'あめりかんどっぐ　みんなに共有してね　#ホラー';
 
   const isBrowser = typeof window !== 'undefined';
   const urlCopyHandler = async (url: string) => {
-    // Next.jsを使用している場合はbuild時にコケるので`isBrowser`の条件分岐が必要です
     if (!isBrowser) return;
     try {
       await navigator.clipboard.writeText(url);
@@ -50,9 +51,10 @@ export default function About() {
            </button>
             </div>
             </div>
-            <div className="eee"><img src="gUV2bq53JfFpNux4f44L1699701771-1699701910.gif"></img></div>
-            <video src="black-and-white-1282260_1280.jpg"></video>
+            <img src="gUV2bq53JfFpNux4f44L1699701771-1699701910.gif"></img>
+            
        </div>
+       
       </Layout> 
     )
 }
