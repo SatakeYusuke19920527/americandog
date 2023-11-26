@@ -12,7 +12,7 @@ import {
 
 
 export default function About() {
-    const URL = 'https://americandog.vercel.app/';
+    const URL = 'https://americandog.vercel.app';
   const QUOTE = 'あめりかんどっぐ　みんなに共有してね　#ホラー';
 
   const isBrowser = typeof window !== 'undefined';
@@ -29,7 +29,6 @@ export default function About() {
     return (
       <Layout>
         <div>
-          <h1 className="example">本番ページ</h1>
           <div className='honban'>
             <div className='sharebox'>
             <div className="share">SNSでシェアしましょう </div>
@@ -46,13 +45,11 @@ export default function About() {
              </LineShareButton>
             </div>
             <br/>
-           <button type='button' className='urlbutton' onClick={() => urlCopyHandler(location.href)}>
+           <button type='button' className='urlbutton' onClick={() => urlCopyHandler('https://americandog.vercel.app')}>
                 URLをコピー
            </button>
             </div>
-            </div>
-            <img src="gUV2bq53JfFpNux4f44L1699701771-1699701910.gif"></img>
-            
+            </div>            
        </div>
        
       </Layout> 

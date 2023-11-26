@@ -39,9 +39,6 @@
   opacity: 0.5;
 }
 
-
-
-
 .handle {
   color: red;
 }
@@ -118,9 +115,21 @@
   transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.eee{
+.eee {
   position: absolute;
   left: 50%;
   top: 120%;
   transform: translate(-50%, -50%);
+}
+
+.footer {
+  padding: 1.5rem;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
+  border-top: 1px solid #a78888;
+}
+
+.footer a:hover {
+  color: rgb(255, 0, 0);
 }
